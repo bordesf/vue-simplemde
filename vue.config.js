@@ -12,7 +12,12 @@ module.exports = {
         root: 'SimpleMDE',
       },
       marked: 'marked',
-      smartmd: 'smartmd',
+      simplemde: {
+        commonjs: 'smartmd',
+        commonjs2: 'smartmd',
+        amd: 'smartmd',
+        root: 'Smartmd',
+      },
     },
   },
 };
