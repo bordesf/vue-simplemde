@@ -12,6 +12,7 @@ module.exports = {
         root: 'SimpleMDE',
       },
       marked: 'marked',
+      smartmd: 'smartmd',
     },
   },
 };
