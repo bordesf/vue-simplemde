@@ -352,7 +352,7 @@ function toComment(sourceMap) {
 /***/ "36ee":
 /***/ (function(module, exports) {
 
-module.exports = require("simplemde");
+module.exports = require("smartmd");
 
 /***/ }),
 
