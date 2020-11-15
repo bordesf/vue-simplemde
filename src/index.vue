@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import SimpleMDE from 'simplemde';
+import Smartmd from 'smartmd';
 import marked from 'marked';
 
 export default {
@@ -84,7 +84,7 @@ export default {
       marked.setOptions({ sanitize: this.sanitize });
 
       // 实例化编辑器
-      this.simplemde = new SimpleMDE(configs);
+      this.simplemde = new Smartmd(configs);
 
       // 添加自定义 previewClass
       const className = this.previewClass || '';
