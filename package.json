@@ -30,7 +30,8 @@
   "license": "MIT",
   "dependencies": {
     "marked": "*",
-    "simplemde": "*"
+    "simplemde": "*",
+    "smartmd": "*"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.6",
